@@ -1,0 +1,30 @@
+{
+  "name": "DocHub-FE",
+  "version": "1.0.0",
+  "description": "A web application for creating and editing clip-path shapes and converting images.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "next dev",
+    "build": "next build",
+    "start:prod": "next start",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "next": "^11.1.0",
+    "lucide-react": "^0.1.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.3.5",
+    "eslint": "^7.32.0",
+    "eslint-config-next": "^11.1.0"
+  },
+  "keywords": [
+    "clip-path",
+    "image-converter",
+    "web-app"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}

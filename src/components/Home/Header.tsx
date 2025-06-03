@@ -26,11 +26,11 @@ export default function Header() {
         
         {/* Navigation */}
         <nav className="flex flex-wrap sm:flex-nowrap gap-6 sm:gap-8 mt-2 sm:mt-0 text-base font-semibold w-full sm:w-auto justify-center sm:justify-start">
-          <Link className="hover:underline whitespace-nowrap" href="#">
-            Challenges
+          <Link className="hover:underline whitespace-nowrap" href="/clip-path">
+            Clip-Patch
             <span className="w-3 h-3 rounded-full bg-yellow-400 inline-block ml-1"></span>
           </Link>
-          <Link className="hover:underline whitespace-nowrap" href="#">Spotlight</Link>
+          <Link className="hover:underline whitespace-nowrap" href="/tool">Tools</Link>
           <Link className="hover:underline whitespace-nowrap" href="#">Blog</Link>
         </nav>
       </div>
