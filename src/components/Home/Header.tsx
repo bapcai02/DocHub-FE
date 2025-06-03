@@ -31,7 +31,7 @@ export default function Header() {
             <span className="w-3 h-3 rounded-full bg-yellow-400 inline-block ml-1"></span>
           </Link>
           <Link className="hover:underline whitespace-nowrap" href="/tool">Tools</Link>
-          <Link className="hover:underline whitespace-nowrap" href="#">Blog</Link>
+          <Link className="hover:underline whitespace-nowrap" href="/json-tools">Json Tools</Link>
         </nav>
       </div>
       
